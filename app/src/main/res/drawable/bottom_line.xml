@@ -1,0 +1,15 @@
+<!-- res/drawable/bottom_line.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00FFFFFF" /> <!-- Transparent background color -->
+        </shape>
+    </item>
+    <!-- Gray line at the bottom -->
+    <item android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#6FCFCFCF" /> <!-- Gray color -->
+        </shape>
+    </item>
+</layer-list>

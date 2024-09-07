@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_corner"
+        android:elevation="1dp"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:maxLength="19"
+        android:padding="25dp"
+        android:textColorHint="#86656464" />
+
+    <LinearLayout
+        android:id="@+id/card_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/validity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/round_corner"
+            android:elevation="1dp"
+            android:hint="valid thru (mm/yy)"
+            android:inputType="number"
+            android:maxLength="19"
+            android:padding="25dp"
+            android:textColorHint="#86656464" />
+
+        <EditText
+            android:id="@+id/cvv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corner"
+            android:elevation="1dp"
+            android:hint="CVV"
+            android:inputType="textPassword"
+            android:maxLength="19"
+            android:padding="25dp"
+            android:textColorHint="#86656464" />
+
+    </LinearLayout>
+
+</LinearLayout>
